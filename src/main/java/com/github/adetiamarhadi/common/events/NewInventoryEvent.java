@@ -1,4 +1,4 @@
-package com.github.adetiamarhadi.msscbeerservice.events;
+package com.github.adetiamarhadi.common.events;
 
 import com.github.adetiamarhadi.msscbeerservice.web.model.BeerDto;
 import lombok.NoArgsConstructor;

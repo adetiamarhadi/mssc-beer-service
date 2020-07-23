@@ -2,8 +2,8 @@ package com.github.adetiamarhadi.msscbeerservice.services.brewing;
 
 import com.github.adetiamarhadi.msscbeerservice.config.JmsConfig;
 import com.github.adetiamarhadi.msscbeerservice.domain.Beer;
-import com.github.adetiamarhadi.msscbeerservice.events.BrewBeerEvent;
-import com.github.adetiamarhadi.msscbeerservice.events.NewInventoryEvent;
+import com.github.adetiamarhadi.common.events.BrewBeerEvent;
+import com.github.adetiamarhadi.common.events.NewInventoryEvent;
 import com.github.adetiamarhadi.msscbeerservice.repositories.BeerRepository;
 import com.github.adetiamarhadi.msscbeerservice.web.model.BeerDto;
 import lombok.RequiredArgsConstructor;
