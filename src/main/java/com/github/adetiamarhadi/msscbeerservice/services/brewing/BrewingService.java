@@ -1,4 +1,4 @@
-package com.github.adetiamarhadi.msscbeerservice.services;
+package com.github.adetiamarhadi.msscbeerservice.services.brewing;
 
 import com.github.adetiamarhadi.msscbeerservice.config.JmsConfig;
 import com.github.adetiamarhadi.msscbeerservice.domain.Beer;
