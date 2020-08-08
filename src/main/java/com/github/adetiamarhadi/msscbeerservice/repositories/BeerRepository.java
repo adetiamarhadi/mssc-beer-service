@@ -1,7 +1,7 @@
 package com.github.adetiamarhadi.msscbeerservice.repositories;
 
 import com.github.adetiamarhadi.msscbeerservice.domain.Beer;
-import com.github.adetiamarhadi.msscbeerservice.web.model.BeerStyleEnum;
+import com.github.adetiamarhadi.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.repository.JpaRepository;

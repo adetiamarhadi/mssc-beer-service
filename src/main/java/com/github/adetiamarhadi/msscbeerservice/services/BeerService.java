@@ -1,8 +1,8 @@
 package com.github.adetiamarhadi.msscbeerservice.services;
 
-import com.github.adetiamarhadi.msscbeerservice.web.model.BeerDto;
-import com.github.adetiamarhadi.msscbeerservice.web.model.BeerPagedList;
-import com.github.adetiamarhadi.msscbeerservice.web.model.BeerStyleEnum;
+import com.github.adetiamarhadi.brewery.model.BeerDto;
+import com.github.adetiamarhadi.brewery.model.BeerPagedList;
+import com.github.adetiamarhadi.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.PageRequest;
 
 import java.util.UUID;

@@ -2,7 +2,7 @@ package com.github.adetiamarhadi.msscbeerservice.bootstrap;
 
 import com.github.adetiamarhadi.msscbeerservice.domain.Beer;
 import com.github.adetiamarhadi.msscbeerservice.repositories.BeerRepository;
-import com.github.adetiamarhadi.msscbeerservice.web.model.BeerStyleEnum;
+import com.github.adetiamarhadi.brewery.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

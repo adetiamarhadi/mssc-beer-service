@@ -1,6 +1,6 @@
-package com.github.adetiamarhadi.common.events;
+package com.github.adetiamarhadi.brewery.model.events;
 
-import com.github.adetiamarhadi.msscbeerservice.web.model.BeerDto;
+import com.github.adetiamarhadi.brewery.model.BeerDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
