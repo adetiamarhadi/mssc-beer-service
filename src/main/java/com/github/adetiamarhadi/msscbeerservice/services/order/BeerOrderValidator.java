@@ -1,7 +1,7 @@
 package com.github.adetiamarhadi.msscbeerservice.services.order;
 
-import com.github.adetiamarhadi.brewery.model.events.BeerOrderDto;
 import com.github.adetiamarhadi.msscbeerservice.repositories.BeerRepository;
+import com.github.adetiamarhadi.brewery.model.events.BeerOrderDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

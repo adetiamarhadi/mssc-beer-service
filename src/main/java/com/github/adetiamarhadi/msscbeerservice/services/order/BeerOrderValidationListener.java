@@ -1,8 +1,8 @@
 package com.github.adetiamarhadi.msscbeerservice.services.order;
 
+import com.github.adetiamarhadi.msscbeerservice.config.JmsConfig;
 import com.github.adetiamarhadi.brewery.model.events.ValidateOrderRequest;
 import com.github.adetiamarhadi.brewery.model.events.ValidateOrderResult;
-import com.github.adetiamarhadi.msscbeerservice.config.JmsConfig;
 import lombok.RequiredArgsConstructor;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.jms.core.JmsTemplate;

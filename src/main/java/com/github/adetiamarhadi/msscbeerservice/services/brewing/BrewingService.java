@@ -2,10 +2,10 @@ package com.github.adetiamarhadi.msscbeerservice.services.brewing;
 
 import com.github.adetiamarhadi.msscbeerservice.config.JmsConfig;
 import com.github.adetiamarhadi.msscbeerservice.domain.Beer;
-import com.github.adetiamarhadi.brewery.model.events.BrewBeerEvent;
 import com.github.adetiamarhadi.msscbeerservice.repositories.BeerRepository;
 import com.github.adetiamarhadi.msscbeerservice.services.inventory.BeerInventoryService;
 import com.github.adetiamarhadi.msscbeerservice.web.mappers.BeerMapper;
+import com.github.adetiamarhadi.brewery.model.events.BrewBeerEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.core.JmsTemplate;
