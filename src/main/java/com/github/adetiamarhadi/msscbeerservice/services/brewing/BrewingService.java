@@ -33,6 +33,7 @@ public class BrewingService {
 
             Integer invQOH = beerInventoryService.getOnHandInventory(beer.getId());
 
+            log.debug("checking inventory for: {} / {}", beer.getBeerName(), beer.getId());
             log.debug("Min Onhand is: {}", beer.getMinOnHand());
             log.debug("Inventory is: {}", invQOH);
 
